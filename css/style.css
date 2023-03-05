@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+h2, h3 {
+    color: #124265;
+}
+
+p{
+    font-size: 13px;
+    color: #aaa;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.crew{
+    background-color: #f8fbfe;
+    padding: 50px 0px;
+}
+
+/* ================================================================== */
+
+.title{
+    margin-bottom: 25px;
+}
+
+.title h2{
+    font-size: 32px;
+    text-transform: uppercase;
+    margin: 5px 0px;
+}
+
+.title p{
+    font-size: 13px;
+    color: #aaa;
+}
+
+
+.crew .person{
+    width: 24%;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 2px 15px rgb(128 128 128 / 20%);
+    display: inline-block;
+}
+
+.crew .person .relative{
+    position: relative;
+}
+
+.crew .person .relative img{
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.crew .person .relative .icons{
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 10px 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: none;
+}
+
+.crew .person .relative .icons i{
+    font-size: 20px;
+    color: #124265;
+    margin: 0px 10px;
+}
+
+.crew .person:hover .icons{
+    display:inline-block
+}
+
+.crew .person .info{
+    padding: 10px 10px 20px 10px;
+}
+
+.crew .person .info h3,
+.crew .person .info p{
+    margin: 5px 0px;
+}
